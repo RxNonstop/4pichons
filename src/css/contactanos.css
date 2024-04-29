@@ -1,0 +1,118 @@
+.contactanos{
+    background: linear-gradient(to bottom, #3533cd, #844e94);
+    height: 100vh;
+}
+
+.contactanos .contact{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactanos .contact .intro_contact{
+    text-align: center;
+}
+
+.contactanos .contact h1, .contactanos .contact p{
+    color: white;
+}
+
+.contactanos .contact h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.contactanos .contact p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact .contact_content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.contact_text{
+    width: 30%;
+}
+
+.contact_form{
+    width: 50%;
+}
+
+.contact_text .title{
+    margin-bottom: 0 !important;
+}
+
+.contact_text .subs{
+    margin-top: 50px;
+}
+
+.contact_text .subs p{
+    font-weight: 300
+}
+
+.contact_text ul{
+    margin: 0;
+    padding: 0;
+}
+
+.email, .socials, .numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.email a, .socials a, .numbers a{
+    color: #ff66c4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email li, .socials li, .numbers li{
+    margin-bottom: 5px;
+}
+
+.contact_form{
+    display: flex;
+}
+
+form input{
+    border-radius: 5px;
+    border-style: none;
+    width: 90%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+}
+
+form textarea{
+    border-radius: 5px;
+    border-style: none;
+    width: 90%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    height: 100px;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+}
+
+form button{
+    background: linear-gradient(to right, #004aad, #cb6ce6);
+    color: #000000;
+    font-weight:800;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    float: right;
+}

@@ -1,0 +1,86 @@
+.inicio{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('../assets/images/img_inicio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.text_inicio{
+    width: 50%;
+    margin-left: 50px;
+    margin-bottom: 250px;
+}
+
+.text_inicio h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.text_inicio h3{
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+}
+
+.text_inicio p{
+    font-size: 20px;
+    color: white;
+}
+
+.text_inicio button{
+    background: linear-gradient(to right, #004aad, #cb6ce6);
+    color: #000000;
+    font-weight:800;
+    padding: 15px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 60%;
+}
+
+.contenedor-menu{
+    
+}
+
+.MuiBottomNavigation-root{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    gap: 40px;
+}
+
+.css-imwso6-MuiBottomNavigationAction-label{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.css-16lloyr-MuiBottomNavigation-root{
+    background-color: transparent !important;
+}
+
+.MuiSvgIcon-root{
+    color: white;
+}
+
+.MuiBottomNavigationAction-label{
+    color: white;
+    font-weight: 700;
+}
+
+.css-qxh7fn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+svg{
+    fill: #ffffff;
+}
+
+

@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(to right, #000000, #3533cd);
+}
+
+.container_header{
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  width: 150px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+ul li{
+  text-decoration: none;
+  color: white;
+  display: inline;
+  margin-right: 30px;
+}
+
+ul li a:hover{
+  color: #8c52ff;
+}
+
+nav ul li a:active {
+  position: relative; /* Posición relativa para la pseudo-elemento */
+}
+
+nav ul li a:active::after {
+  content: ''; /* Añade un contenido vacío */
+  position: absolute; /* Posiciona el pseudo-elemento de manera absoluta */
+  bottom: -3px; /* Desplaza la barra de subrayado hacia abajo */
+  left: 0; /* Alinea la barra de subrayado a la izquierda */
+  width: 100%; /* La barra de subrayado ocupa todo el ancho del enlace */
+  height: 2px; /* Altura de la barra de subrayado */
+  background: linear-gradient(to right, #004aad, #cb6ce6); /* Color de la barra de subrayado */
+}
+
+.header1{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header2 a{
+  margin-right: 70px;
+}
+
+.demo{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cotizaciones{
+  background: linear-gradient(to right, #004aad, #cb6ce6);
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
