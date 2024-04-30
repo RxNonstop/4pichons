@@ -1,12 +1,19 @@
+import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import video1 from '../assets/videos/video1.mp4'
 
 function CarouselVideo() {
+    const [selectedCategory, setSelectedCategory] = useState('conocenos');
+  
+    const handleSelectCategory = (category) => {
+      setSelectedCategory(category);
+    };
+  
   return (
     <Carousel>
       <Carousel.Item>
         <div className='video-container'>
-          <video src={video1} autoPlay muted className='video_content'>
+          <video src={video1} autoPlay muted loop className='video_content'>
           </video>
           <div className='carousel-caption'>
             <div className='text'>
