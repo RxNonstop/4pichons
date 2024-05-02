@@ -18,8 +18,8 @@ export default function MenuLateral() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Meeting planners" icon={<FavoriteIcon/>} />
-        <BottomNavigationAction label="Virtual Reality" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Meeting planners" icon={<LocationOnIcon/>} />
+        <BottomNavigationAction label="Virtual Reality" icon={<LocationOnIcon />} />
         <BottomNavigationAction label="Incentive Travels" icon={<LocationOnIcon />} />
         <BottomNavigationAction label="Team Building" icon={<LocationOnIcon />} />
         <BottomNavigationAction label="360 & VR productions" icon={<LocationOnIcon />} />

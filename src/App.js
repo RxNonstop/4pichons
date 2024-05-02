@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap';
 import Inicio from './sections/inicio';
 import Contact from './sections/contactanos';
 import Slider from './sections/Slider';
+import { Nav } from 'react-bootstrap';
 
 import logo from './assets/images/6--Blanco.png'
 

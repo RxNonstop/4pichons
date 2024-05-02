@@ -27,28 +27,28 @@ body{
   width: 150px;
 }
 
-ul{
+.navbar ul{
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
-ul li{
+.navbar ul li{
   text-decoration: none;
   color: white;
   display: inline;
   margin-right: 30px;
 }
 
-ul li a:hover{
+.navbar ul li a:hover{
   color: #8c52ff;
 }
 
-nav ul li a:active {
-  position: relative; /* Posición relativa para la pseudo-elemento */
+.navbar ul li a:active {
+  position: relative;
 }
 
-nav ul li a:active::after {
+.navbar ul li a:active::after {
   content: ''; /* Añade un contenido vacío */
   position: absolute; /* Posiciona el pseudo-elemento de manera absoluta */
   bottom: -3px; /* Desplaza la barra de subrayado hacia abajo */
@@ -75,7 +75,7 @@ nav ul li a:active::after {
   color: #ffffff;
 }
 
-nav a{
+.navbar a{
   text-decoration: none;
   color: #ffffff;
 }
@@ -89,3 +89,4 @@ nav a{
   border-radius: 20px;
   cursor: pointer;
 }
+
