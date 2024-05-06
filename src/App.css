@@ -38,6 +38,7 @@ body{
   color: white;
   display: inline;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .navbar ul li a:hover{

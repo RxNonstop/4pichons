@@ -82,6 +82,22 @@
     cursor: pointer;
 }
 
+.menu_carousel ul li a svg{
+    width: 80%;
+    height: 80%;
+    fill: #ffffff;
+}
+
+.menu_carousel ul li a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .seleccionado{
     color: #EEFB03 !important;
+}
+
+.seleccionado svg g path{
+    fill: #EEFB03 !important;
 }

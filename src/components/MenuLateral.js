@@ -2,8 +2,11 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import Metting_planners from '../assets/svg/meeting_planers';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import Meeting from '../assets/svg/meeting_planers';
+import Travels from '../assets/svg/travels';
+import Teams from '../assets/svg/teams';
+import Vr360 from '../assets/svg/vr360';
+import Vr from '../assets/svg/vr';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function MenuLateral() {
@@ -18,11 +21,11 @@ export default function MenuLateral() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Meeting planners" icon={<LocationOnIcon/>} />
+        <BottomNavigationAction label="Meeting planners" icon={<Meeting/>} />
         <BottomNavigationAction label="Virtual Reality" icon={<LocationOnIcon />} />
-        <BottomNavigationAction label="Incentive Travels" icon={<LocationOnIcon />} />
-        <BottomNavigationAction label="Team Building" icon={<LocationOnIcon />} />
-        <BottomNavigationAction label="360 & VR productions" icon={<LocationOnIcon />} />
+        <BottomNavigationAction label="Incentive Travels" icon={<Travels/>} />
+        <BottomNavigationAction label="Team Building" icon={<Teams/>} />
+        <BottomNavigationAction label="360 & VR productions" icon={<Vr360 />} />
         <BottomNavigationAction label="Sustainable furniture" icon={<LocationOnIcon />} />
         <BottomNavigationAction label="Sustainable activations" icon={<LocationOnIcon />} />
       </BottomNavigation>

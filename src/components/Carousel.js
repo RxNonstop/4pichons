@@ -2,8 +2,15 @@ import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import video1 from '../assets/videos/video1.mp4';
 import video2 from '../assets/videos/video2.mp4';
-import meeting from '../assets/svg/meeting_planers';
-
+import travels from '../assets/videos/travels.mp4';
+import Cartagena360 from '../assets/videos/Cartagena360.mp4';
+import que_ofrecemos from '../assets/videos/que_ofrecemos.mp4';
+import Meeting from '../assets/svg/meeting_planers';
+import Travels from '../assets/svg/travels';
+import Teams from '../assets/svg/teams';
+import Vr360 from '../assets/svg/vr360';
+import Vr from '../assets/svg/vr';
+import Sf from '../assets/svg/sf'
 function CarouselVideo() {
     const [selectedCategory, setSelectedCategory] = useState('conocenos');
     const [enlaceSeleccionado, setEnlaceSeleccionado] = useState(null);
@@ -31,7 +38,7 @@ function CarouselVideo() {
         </Carousel.Item>
         <Carousel.Item interval={5000}>
           <div className='video-container'>
-            <video src={video2} autoPlay muted loop className='video_content'>
+            <video src={que_ofrecemos} autoPlay muted loop className='video_content'>
             </video>
             <div className='carousel-caption'>
               <div className='text'>
@@ -79,7 +86,7 @@ function CarouselVideo() {
       <Carousel>
         <Carousel.Item interval={5000}>
           <div className='video-container'>
-            <video src={video1} autoPlay muted loop className='video_content'>
+            <video src={travels} autoPlay muted loop className='video_content'>
             </video>
             <div className='carousel-caption'>
               <div className='text'>
@@ -111,7 +118,7 @@ function CarouselVideo() {
       <Carousel>
         <Carousel.Item interval={5000}>
           <div className='video-container'>
-            <video src={video1} autoPlay muted loop className='video_content'>
+            <video src={Cartagena360} autoPlay muted loop className='video_content'>
             </video>
             <div className='carousel-caption'>
               <div className='text'>
@@ -157,12 +164,12 @@ function CarouselVideo() {
       )}
       <nav className='menu_carousel'>
         <ul>
-          <li><a onClick={()=>handleSelectCategory('meeting',1)} className={enlaceSeleccionado == 1 ? "seleccionado" : ""}><img src={meeting}></img>Meeting planners</a></li>
-          <li><a onClick={()=>handleSelectCategory('vr',2)} className={enlaceSeleccionado == 2 ? "seleccionado" : ""}>Virtual Reality</a></li>
-          <li><a onClick={()=>handleSelectCategory('travels',3)} className={enlaceSeleccionado == 3 ? "seleccionado" : ""}>Incentive Travels</a></li>
-          <li><a onClick={()=>handleSelectCategory('team',4)} className={enlaceSeleccionado == 4 ? "seleccionado" : ""}>Team Building</a></li>
-          <li><a onClick={()=>handleSelectCategory('360',5)} className={enlaceSeleccionado == 5 ? "seleccionado" : ""}>360 & VR productions</a></li>
-          <li><a onClick={()=>handleSelectCategory('sf',6)} className={enlaceSeleccionado == 6 ? "seleccionado" : ""}>Sustainable furniture</a></li>
+          <li><a onClick={()=>handleSelectCategory('meeting',1)} className={enlaceSeleccionado == 1 ? "seleccionado" : ""}><Meeting></Meeting><span>Meeting planners</span></a></li>
+          <li><a onClick={()=>handleSelectCategory('vr',2)} className={enlaceSeleccionado == 2 ? "seleccionado" : ""}><Vr></Vr><span>Virtual Reality</span></a></li>
+          <li><a onClick={()=>handleSelectCategory('travels',3)} className={enlaceSeleccionado == 3 ? "seleccionado" : ""}><Travels></Travels><span>Incentive Travels</span></a></li>
+          <li><a onClick={()=>handleSelectCategory('team',4)} className={enlaceSeleccionado == 4 ? "seleccionado" : ""}><Teams></Teams><span>Team Building</span></a></li>
+          <li><a onClick={()=>handleSelectCategory('360',5)} className={enlaceSeleccionado == 5 ? "seleccionado" : ""}><Vr360></Vr360><span>360 & VR productions</span></a></li>
+          <li><a onClick={()=>handleSelectCategory('sf',6)} className={enlaceSeleccionado == 6 ? "seleccionado" : ""}><Sf></Sf><span>Sustainable furniture</span></a></li>
           <li><a onClick={()=>handleSelectCategory('sa',7)} className={enlaceSeleccionado == 7 ? "seleccionado" : ""}>Sustainable activations</a></li>
         </ul>
       </nav>

@@ -1,14 +1,22 @@
+import React, {useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
-import Inicio from './sections/inicio';
-import Contact from './sections/contactanos';
+import Inicio from './sections/Inicio';
+import Contact from './sections/Contactanos';
 import Slider from './sections/Slider';
-import { Nav } from 'react-bootstrap';
+import logo from './assets/images/6--Blanco.png';
+import Services from './sections/Servicios';
 
-import logo from './assets/images/6--Blanco.png'
 
 function App() {
+  const [selectedOption, setSelectedOption] = useState('inicio');
+  
+  const handleSelectedOption = (option) => {
+    if(option !== selectedOption){
+      setSelectedOption(option);
+    }
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,8 +25,8 @@ function App() {
             <img src={logo} className="logo" alt="logo" />
             <nav className='navbar'>
               <ul>
-                <li><a href='#inicio'>INICIO</a></li>
-                <li><a href='#'>SERVICIOS</a></li>
+                <li><a href='#' onClick={()=>handleSelectedOption('inicio')}>INICIO</a></li>
+                <li><a href='#servicios' onClick={()=>handleSelectedOption('servicios')}>SERVICIOS</a></li>
                 <li><a href='#slider'>CONOCENOS</a></li>
                 <li><a href='#contactanos'>CONTACTANOS</a></li>
               </ul>
@@ -30,7 +38,12 @@ function App() {
           </div>
         </div>
       </header>
-      <Inicio></Inicio>
+      {selectedOption === 'inicio' && (
+        <Inicio></Inicio>
+      )}
+      {selectedOption === 'servicios' && (
+        <Services></Services>
+      )}
       <Slider></Slider>
       <Contact></Contact>
     </div>
