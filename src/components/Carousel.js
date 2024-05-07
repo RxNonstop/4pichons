@@ -11,6 +11,7 @@ import Teams from '../assets/svg/teams';
 import Vr360 from '../assets/svg/vr360';
 import Vr from '../assets/svg/vr';
 import Sf from '../assets/svg/sf'
+import Sa from '../assets/svg/sa';
 function CarouselVideo() {
     const [selectedCategory, setSelectedCategory] = useState('conocenos');
     const [enlaceSeleccionado, setEnlaceSeleccionado] = useState(null);
@@ -170,7 +171,7 @@ function CarouselVideo() {
           <li><a onClick={()=>handleSelectCategory('team',4)} className={enlaceSeleccionado == 4 ? "seleccionado" : ""}><Teams></Teams><span>Team Building</span></a></li>
           <li><a onClick={()=>handleSelectCategory('360',5)} className={enlaceSeleccionado == 5 ? "seleccionado" : ""}><Vr360></Vr360><span>360 & VR productions</span></a></li>
           <li><a onClick={()=>handleSelectCategory('sf',6)} className={enlaceSeleccionado == 6 ? "seleccionado" : ""}><Sf></Sf><span>Sustainable furniture</span></a></li>
-          <li><a onClick={()=>handleSelectCategory('sa',7)} className={enlaceSeleccionado == 7 ? "seleccionado" : ""}>Sustainable activations</a></li>
+          <li><a onClick={()=>handleSelectCategory('sa',7)} className={enlaceSeleccionado == 7 ? "seleccionado" : ""}><Sa></Sa><span>Sustainable activations</span></a></li>
         </ul>
       </nav>
     </div>
