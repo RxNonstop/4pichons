@@ -48,9 +48,10 @@
   width: 60%;
 }
 
-/* .contenedor-menu {
-  margin-right: 30px;
-} */
+.contenedor-menu {
+  position:relative;
+  bottom: 50px;
+}
 
 .MuiBottomNavigation-root {
   display: flex;

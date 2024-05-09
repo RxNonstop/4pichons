@@ -5,7 +5,7 @@ import Inicio from './sections/Inicio';
 import Contact from './sections/Contactanos';
 import Slider from './sections/Slider';
 import logo from './assets/images/6--Blanco.png';
-import Services from './sections/Servicios';
+import Gallery from './sections/Gallery';
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
         <Inicio></Inicio>
       )}
       {selectedOption === 'servicios' && (
-        <Services></Services>
+        <Gallery></Gallery>
       )}
       <Slider></Slider>
       <Contact></Contact>
