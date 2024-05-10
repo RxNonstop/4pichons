@@ -131,3 +131,14 @@ form button{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p{
+    color: #a6a6a6;
+    font-weight: 200 !important;
+}

@@ -54,7 +54,9 @@ function Gallery(){
       ):(
         <Video title={selectedVideo?.title} src={selectedVideo?.src} text={selectedVideo?.text} onClose={handleModal}/>
       )}
-      <MenuLateral></MenuLateral>
+      <div className="contenedor-menu_servicios">
+        <MenuLateral></MenuLateral>
+      </div>
     </section>
   )
 }

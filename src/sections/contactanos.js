@@ -42,6 +42,9 @@ function Contact() {
                             </form>
                         </div>
                     </div>
+                    <div className="footer">
+                    <p>2024 - 4 PICHONS- Política de Privacidad-Sociedad Anonima de Capital Variado</p>
+                    </div>
                 </div>
             </div>
         </section>

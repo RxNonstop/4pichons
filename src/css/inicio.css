@@ -15,7 +15,7 @@
 }
 
 .text_inicio {
-  width: 40%;
+  width: 90%;
   margin-left: 50px;
 }
 
@@ -45,45 +45,19 @@
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  width: 60%;
+  width: 30%;
 }
 
-.contenedor-menu {
-  position:relative;
-  bottom: 50px;
-}
-
-.MuiBottomNavigation-root {
+.text_inicio{
   display: flex;
   flex-direction: column;
-  width: 50px;
-  gap: 20px;
 }
 
-.css-imwso6-MuiBottomNavigationAction-label {
-  font-family: "Montserrat", sans-serif !important;
-}
-
-.css-16lloyr-MuiBottomNavigation-root {
-  background-color: transparent !important;
-}
-
-.MuiSvgIcon-root {
-  color: white;
-}
-
-.MuiBottomNavigationAction-label {
-  color: white;
-  font-weight: 700;
-}
-
-.css-qxh7fn {
-  width: 100%;
+.contenedor-menu{
   display: flex;
-  justify-content: flex-end;
+  width: 10%;
+}
+.contenedor-menu span{
+  width: 80%;
 }
 
-.contenedor-menu svg{
-  width: 80%;
-  height: 80%;
-}
