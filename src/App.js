@@ -33,8 +33,7 @@ function App() {
             </nav>
           </div>
           <div className='header2'>
-            <a href='.' className='demo'>DEMOS</a>
-            <button className='cotizaciones'>COTIZACIONES</button>
+            <button className='cotizaciones'>DEMOS</button>
           </div>
         </div>
       </header>

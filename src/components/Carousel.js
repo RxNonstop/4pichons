@@ -25,7 +25,7 @@ function CarouselVideo() {
     <div className='carousel_videos'>
       {selectedCategory === 'conocenos' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={video1} autoPlay muted loop className='video_content'>
             </video>
@@ -37,7 +37,7 @@ function CarouselVideo() {
             </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={que_ofrecemos} autoPlay muted loop className='video_content'>
             </video>
@@ -53,7 +53,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === 'meeting' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={video1} autoPlay muted loop className='video_content'>
             </video>
@@ -69,7 +69,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === 'vr' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={video1} autoPlay muted loop className='video_content'>
             </video>
@@ -85,7 +85,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === 'travels' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={travels} autoPlay muted loop className='video_content'>
             </video>
@@ -101,7 +101,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === 'team' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={video1} autoPlay muted loop className='video_content'>
             </video>
@@ -117,7 +117,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === '360' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={Cartagena360} autoPlay muted loop className='video_content'>
             </video>
@@ -133,7 +133,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === 'sf' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={video1} autoPlay muted loop className='video_content'>
             </video>
@@ -149,7 +149,7 @@ function CarouselVideo() {
       )}
       {selectedCategory === 'sa' && (
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item>
           <div className='video-container'>
             <video src={video1} autoPlay muted loop className='video_content'>
             </video>
