@@ -32,7 +32,7 @@ function Travels(){
     }
 
     return(
-        <div>
+        <div className="container_photos">
             {isExpanded === false ? (
                 <div className="video_gallery">
                 {images.map((image) => (

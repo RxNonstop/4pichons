@@ -7,12 +7,12 @@ function Vr360(){
     const [isExpanded, setIsExpanded] = useState(false);
 
     const videos = [
-        { id: 1, title: 'CARTAGENA 360', src: require('../assets/videos/video1.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.' },
-        { id: 2, title: 'ISLA DEL ENCANTO', src: require('../assets/videos/video2.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.' },
-        { id: 3, title: 'ANDES PLAZA BOGOTA', src: require('../assets/videos/que_ofrecemos.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.' },
-        { id: 4, title: 'VR PARA HOTELES', src: require('../assets/videos/que_ofrecemos.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.' },
+        { id: 1, title: 'CARTAGENA 360', src: require('../assets/videos/video1.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.', thumbnail: '' },
+        { id: 2, title: 'ISLA DEL ENCANTO', src: require('../assets/videos/video2.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.', thumbnail: '' },
+        { id: 3, title: 'ANDES PLAZA BOGOTA', src: require('../assets/videos/que_ofrecemos.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.', thumbnail: '' },
+        { id: 4, title: 'VR PARA HOTELES', src: 'https://www.youtube.com/watch?v=54Pih8jUrg4', text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.', thumbnail: '' },
         { id: 5, title: 'ELABORACIÓN DE CHOCOLATE', src: require('../assets/videos/que_ofrecemos.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.' },
-        { id: 6, title: 'VANCOUVER', src: require('../assets/videos/que_ofrecemos.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.' }
+        { id: 6, title: 'VANCOUVER', src: require('../assets/videos/que_ofrecemos.mp4'), text: 'Genera colaboración entre equipos de trabajo con TEAM BUILDING OPS, un ideal escenario de acción donde por medio del uso de REALIDAD MIXTA los participantes desarrollan capacidades de liderazgo, comunicación y resolución de conflictos bajo presión en un entorno dinámico de juego y estrategia.', thumbnail: '' }
     ];
 
     const handleClick = (videoId) => {
@@ -29,7 +29,7 @@ function Vr360(){
     }
 
     return(
-        <div>
+        <div className="container_reproducer">
             {isExpanded === false ? (
                 <div className="video_gallery">
                 {videos.map((video) => (

@@ -1,10 +1,10 @@
 import React from "react";
-import CarouselVideo from "../components/Carousel";
+import CarouselPrincipal from "../components/Carousel";
 
 function Slider(){
   return(
     <div id="slider">
-      <CarouselVideo></CarouselVideo>
+      <CarouselPrincipal></CarouselPrincipal>
     </div>
   )
 }

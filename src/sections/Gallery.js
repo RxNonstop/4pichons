@@ -20,7 +20,6 @@ function Gallery(){
 
   return(
     <section className="servicios">
-      <TituloVertical texto='CATALOGO'></TituloVertical>
       {MenuOption === '' && <div><h1>Hola</h1></div>}
       {MenuOption === 'meeting' && <VirtualReality></VirtualReality>}
       {MenuOption === 'vr' && <VirtualReality></VirtualReality>}
