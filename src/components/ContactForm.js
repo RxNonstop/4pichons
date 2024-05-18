@@ -1,5 +1,5 @@
 import React,{useRef} from "react";
-import emailjs, { send } from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 
 function ContactForm() {
 
@@ -13,12 +13,12 @@ function ContactForm() {
             publicKey: '_oj4TzaxErb7UFsU5',
         })
         .then(
-            () => {
-                console.log('SUCCESS!');
+            (result) => {
+                console.log(result.text);
                 form.current.reset();
             },
             (error) => {
-            console.log('FAILED...', error.text);
+                console.log('FAILED...', error.text);
             },
         );
     };

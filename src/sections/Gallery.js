@@ -28,7 +28,7 @@ function Gallery(selectedOption, setSelectedOption){
       {MenuOption === 'sf' && <Sf></Sf>}
       {MenuOption === 'sa' && <Sa></Sa>}
       <div className="contenedor-menu_servicios">
-        <MenuLateral onChange={handleOption} selectedOption={selectedOption} setSelectedOption={setSelectedOption}></MenuLateral>
+        <MenuLateral onChange={handleOption}></MenuLateral>
       </div>
     </section>
   )
