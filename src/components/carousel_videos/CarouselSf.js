@@ -10,7 +10,7 @@ function CarouselSf() {
                     </video>
                     <div className='carousel-caption'>
                     <div className='text'>
-                        <h1>SUSTENTABLE FORNITURE</h1>
+                        <h1>SUSTENTABLE FURNITURE</h1>
                         <p>Haz algo verde hoy y apoya el futuro! desarrolla de Forma más ecofriendly tus eventos corporativos con nosotros</p>
                     </div>
                     </div>

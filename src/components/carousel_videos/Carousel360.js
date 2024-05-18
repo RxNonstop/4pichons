@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Cartagena360 from '../../assets/videos/Cartagena360.mp4';
+import Cartagena360 from '../../assets/videos/slider_360.mp4';
 
 function Carousel360() {
     return(

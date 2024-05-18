@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import travels from '../../assets/videos/travels.mp4';
+import travels from '../../assets/videos/slider_travels.mp4';
 
 function CarouselTravels() {
     return(
