@@ -34,7 +34,13 @@ function App() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" onClick={() => handleSelectedOption("servicios")}>
+                  <a
+                    className={
+                      selectedOption == "servicios" ? "seleccionado" : ""
+                    }
+                    href="#"
+                    onClick={() => handleSelectedOption("servicios")}
+                  >
                     SERVICIOS
                   </a>
                 </li>

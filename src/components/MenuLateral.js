@@ -20,8 +20,6 @@ export default function MenuLateral({
     setMenuOptionIndex(indice);
   };
 
-  console.log(menuOption);
-
   return (
     <nav className="menu_lateral">
       <ul>
