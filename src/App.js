@@ -14,6 +14,7 @@ function App() {
   const [menuOptionIndex, setMenuOptionIndex] = useState(0);
   const handleSelectedOption = (option) => {
     setMenuOption("");
+    setMenuOptionIndex(0);
     if (option !== selectedOption) {
       setSelectedOption(option);
     }
