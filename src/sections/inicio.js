@@ -1,8 +1,7 @@
 import React from "react";
-import MenuLateral from "../components/MenuLateral";
 import BannerImg from "../assets/images/img_inicio.png";
 
-function Inicio() {
+function Inicio({ children }) {
   return (
     <section className="inicio" id="inicio">
       <img
@@ -29,9 +28,8 @@ function Inicio() {
         </p>
         <button>DESCUBRELO</button>
       </div>
-      <div className="contenedor-menu">
-        <MenuLateral/>
-      </div>
+      {/*MenuLateral */}
+      {children}
     </section>
   );
 }
