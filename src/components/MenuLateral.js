@@ -1,7 +1,4 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import Meeting from '../assets/svg/meeting_planers';
 import Travels from '../assets/svg/travels';
 import Teams from '../assets/svg/teams';
@@ -18,23 +15,6 @@ export default function MenuLateral({onChange}) {
   };
 
   return (
-    // <Box sx={{ width: 500}}>
-    //   <BottomNavigation
-    //     showLabels
-    //     value={value}
-    //     onChange={(event, newValue) => {
-    //       setValue(newValue);
-    //     }}
-    //   >
-    //     <BottomNavigationAction label="Meeting planners" icon={<Meeting/>} />
-    //     <BottomNavigationAction label="Virtual Reality" icon={<Vr />} />
-    //     <BottomNavigationAction label="Incentive Travels" icon={<Travels/>} />
-    //     <BottomNavigationAction label="Team Building" icon={<Teams/>} />
-    //     <BottomNavigationAction label="360 & VR productions" icon={<Vr360 />} />
-    //     <BottomNavigationAction label="Sustainable furniture" icon={<Sf/>} />
-    //     <BottomNavigationAction label="Sustainable activations" icon={<Sa/>} />
-    //   </BottomNavigation>
-    // </Box>
     <nav className='menu_lateral'>
         <ul>
           <li><a onClick={()=>{handleSelectCategory(1);onChange('meeting')}} className={menuOption == 1 ? "seleccionado" : ""}><Meeting></Meeting><span>Meeting planners</span></a></li>

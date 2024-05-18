@@ -30,7 +30,7 @@ function Inicio() {
         <button>DESCUBRELO</button>
       </div>
       <div className="contenedor-menu">
-        <MenuLateral />
+        <MenuLateral/>
       </div>
     </section>
   );

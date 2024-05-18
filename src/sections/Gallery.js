@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import MenuLateral from "../components/MenuLateral";
-import TituloVertical from "../components/TituloVertical";
 
 import VirtualReality from "../components/VirtualReality";
 import Vr360 from "../components/Vr360";
@@ -8,7 +7,7 @@ import Travels from "../components/Travels";
 import Sf from "../components/Sf";
 import Sa from "../components/Sa";
 
-function Gallery(){
+function Gallery(selectedOption, setSelectedOption){
 
   const [MenuOption, setMenuOption] = useState('');
 
@@ -29,7 +28,7 @@ function Gallery(){
       {MenuOption === 'sf' && <Sf></Sf>}
       {MenuOption === 'sa' && <Sa></Sa>}
       <div className="contenedor-menu_servicios">
-        <MenuLateral onChange={handleOption}></MenuLateral>
+        <MenuLateral onChange={handleOption} selectedOption={selectedOption} setSelectedOption={setSelectedOption}></MenuLateral>
       </div>
     </section>
   )

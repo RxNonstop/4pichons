@@ -26,7 +26,7 @@ function App() {
             <nav className='navbar'>
               <ul>
                 <li><a href='#' onClick={()=>handleSelectedOption('inicio')}>INICIO</a></li>
-                <li><a href='#servicios' onClick={()=>handleSelectedOption('servicios')}>SERVICIOS</a></li>
+                <li><a href='#' onClick={()=>handleSelectedOption('servicios')}>SERVICIOS</a></li>
                 <li><a href='#slider'>CONOCENOS</a></li>
                 <li><a href='#contactanos'>CONTACTANOS</a></li>
               </ul>

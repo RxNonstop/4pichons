@@ -1,5 +1,6 @@
 import React from "react";
-import ContactImg from '../assets/images/img_contactanos.png'
+import ContactImg from '../assets/images/img_contactanos.png';
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
     return (
@@ -33,13 +34,7 @@ function Contact() {
                             </div>
                         </div>
                         <div className="contact_form">
-                            <form action="submit">
-                                <input type="text" placeholder="Escribe tu nombre"></input>
-                                <input type="email" placeholder="Escribe tu e-mail"></input>
-                                <input type="number" placeholder="Escribe tu telefono (Opcional)"></input>
-                                <textarea type="" placeholder="Escribe tu mensaje"></textarea>
-                                <button type="submit">ENVIAR MENSAJE</button>
-                            </form>
+                            <ContactForm></ContactForm>
                         </div>
                     </div>
                     <div className="footer">
