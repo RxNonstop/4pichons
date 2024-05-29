@@ -20,20 +20,18 @@
 }
 
 .text_inicio h1 {
-  font-size: 60px;
-  font-weight: bold;
-  color: white;
-}
-
-.text_inicio h3 {
-  font-size: 35px;
-  font-weight: lighter;
+  font-family: 'Montserrat';
+  font-size: 70px;
+  font-weight: 100;
   color: white;
 }
 
 .text_inicio p {
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: 400;
   color: white;
+  width: 45%;
 }
 
 .text_inicio button {

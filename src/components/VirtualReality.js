@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Video from "./Video";
+import GalleryVideo from "./GalleryVideo";
 
 function VirtualReality(){
 
@@ -39,9 +40,8 @@ function VirtualReality(){
                         <div key={video.id} >
                             <div className="thumbnail_container">
                                 <div className="video_container" onClick={() => {handleModal(); handleClick(video.id);}}>
-                                    <video src={video.thumbnail} autoPlay muted loop></video>
+                                    <GalleryVideo videoSrc={video.thumbnail} title={video.title}></GalleryVideo>
                                 </div>
-                                <h3>{video.title}</h3>
                             </div>
                         </div>
                     ))}

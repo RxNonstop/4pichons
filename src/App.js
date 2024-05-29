@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Inicio from "./sections/inicio";
-import Contact from "./sections/contactanos";
+import Inicio from "./sections/Inicio";
+import Contact from "./sections/Contactanos";
 import Slider from "./sections/Slider";
 import logo from "./assets/images/6--Blanco.png";
 import Gallery from "./sections/Gallery";
@@ -29,7 +29,10 @@ function App() {
             <nav className="navbar">
               <ul>
                 <li>
-                  <a href="#" onClick={() => handleSelectedOption("inicio")}>
+                  <a  className={
+                      selectedOption == "inicio" ? "seleccionado" : ""
+                    }
+                    href="#" onClick={() => handleSelectedOption("inicio")}>
                     INICIO
                   </a>
                 </li>
@@ -54,7 +57,7 @@ function App() {
             </nav>
           </div>
           <div className="header2">
-            <button className="cotizaciones">DEMOS</button>
+            <button className="demos">DEMOS</button>
           </div>
         </div>
       </header>

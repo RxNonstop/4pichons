@@ -9,7 +9,7 @@ const Video = ({ title, src, text, onClose }) => {
             <h3>{title}</h3>
             <p>{text}</p>
         </div>
-        <button onClick={onClose} >×</button>
+        <button onClick={onClose} className="close-video">X</button>
       </div>
     );
 };

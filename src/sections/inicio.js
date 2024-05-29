@@ -7,11 +7,9 @@ function Inicio({ children }) {
       <img
         style={{
           position: "absolute",
-          objectFit: "cover",
+          objectFit: "contain",
           right: "0",
-          bottom: "-175px",
-          maskImage: "linear-gradient(black 75%, transparent, transparent)",
-          width: "68vw",
+          width: "80vw",
           zIndex: "-1",
         }}
         width="100%"
@@ -20,13 +18,11 @@ function Inicio({ children }) {
         src={BannerImg}
       />
       <div className="text_inicio">
-        <h3>A TU ALCANCE</h3>
-        <h1>ESTÁ EL METAVERSO</h1>
+        <h1>MEETING PLANERS</h1>
         <p>
           "¡Sumérgete en la realidad virtual y haz que tus emociones cobren vida
           con nosotros!"
         </p>
-        <button>DESCUBRELO</button>
       </div>
       {/*MenuLateral */}
       {children}
