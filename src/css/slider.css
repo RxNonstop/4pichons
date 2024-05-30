@@ -50,7 +50,7 @@
 
 .menu_carousel{
     display: flex;
-    height: 15vh;
+    padding: 15px 0;
     justify-content: center;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .menu_carousel ul li{
-    width: 80px;
+    width: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
