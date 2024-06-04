@@ -1,0 +1,53 @@
+.activations{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    gap: 15px;
+    padding: 20px;
+}
+
+.activations .img_group{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.activations .short_img{
+    height: 45%;
+    width: 80%;
+    text-align: center;
+}
+
+.activations .img_group .imagen1,.activations .img_group .imagen2{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+.activations .large_img{
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activations h4{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.activations .imagen3{
+    height: 90%;
+    width: 80%;
+    background-color: gray;
+}
+
+.img_group .imagen1 img, .imagen2 img, .imagen3 img{
+    height: 100%;
+    width: 100%;
+}

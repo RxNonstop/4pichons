@@ -1,5 +1,6 @@
 .slider{
     background: linear-gradient(to bottom, #000000, #8786f4) !important;
+    height: 100vh;
 }
 
 .video-container {
@@ -50,6 +51,7 @@
 
 .menu_carousel{
     display: flex;
+    height: 15vh;
     padding: 15px 0;
     justify-content: center;
 }
@@ -83,8 +85,8 @@
 }
 
 .menu_carousel ul li a svg{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     fill: #ffffff;
 }
 
@@ -100,4 +102,8 @@
 
 .seleccionado svg g path{
     fill: #EEFB03 !important;
+}
+
+.img_slider{
+    width: 100%;
 }

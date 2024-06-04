@@ -7,6 +7,7 @@ import Slider from "./sections/Slider";
 import logo from "./assets/images/6--Blanco.png";
 import Gallery from "./sections/Gallery";
 import MenuLateral from "./components/MenuLateral";
+import GalleryImages from "./components/GalleryImages";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState("inicio");
@@ -88,6 +89,7 @@ function App() {
         </Gallery>
       )}
       <Slider></Slider>
+      <GalleryImages></GalleryImages>
       <Contact></Contact>
     </div>
   );
