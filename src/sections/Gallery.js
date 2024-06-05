@@ -3,14 +3,13 @@ import Vr360 from "../components/Vr360";
 import Travels from "../components/Travels";
 import Sf from "../components/Sf";
 import Sa from "../components/Sa";
+import PrincipalServicios from "../components/PrincipalServicios";
 
 function Gallery({ children, menuOption }) {
   return (
     <section className="servicios">
       {menuOption === "" && (
-        <div>
-          <h1>Hola</h1>
-        </div>
+        <PrincipalServicios></PrincipalServicios>
       )}
       {menuOption === "meeting" && <VirtualReality></VirtualReality>}
       {menuOption === "vr" && <VirtualReality></VirtualReality>}
