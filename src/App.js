@@ -52,6 +52,9 @@ function App() {
                   <a href="#slider">CONOCENOS</a>
                 </li>
                 <li>
+                  <a href="#gallery_mix">GALERIA</a>
+                </li>
+                <li>
                   <a href="#contactanos">CONTACTANOS</a>
                 </li>
               </ul>

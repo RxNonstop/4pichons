@@ -23,15 +23,19 @@ const GalleryImages = () => {
 
     const handleSelectedPage = (op) =>{
         if(op===0){
-            setSelectedPage(selectedPage-1)
+            if(selectedPage>0){
+                setSelectedPage(selectedPage-1)
+            }
         }
         else if(op===1){
-            setSelectedPage(selectedPage+1)
+            if(selectedPage<1){
+                setSelectedPage(selectedPage+1)
+            }
         }
     }
 
     return (
-        <div className='gallery_mix'>
+        <div className='gallery_mix' id='gallery_mix'>
             <div className='gallery_interactions'>
                 <button onClick={()=>handleSelectedPage(0)}>Anterior</button>
             </div>
@@ -66,7 +70,7 @@ const GalleryImages = () => {
                     </div>
                 </div>
             )}
-            <div className='gallery_interactions'>
+            <div className='gallery_interactions2'>
                 <button onClick={()=>handleSelectedPage(1)}>Siguiente</button>
             </div>
         </div>
