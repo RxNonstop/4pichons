@@ -16,6 +16,7 @@ function ContactForm() {
             (result) => {
                 console.log(result.text);
                 form.current.reset();
+                alert("El correo ha sido enviado exitosamente")
             },
             (error) => {
                 console.log('FAILED...', error.text);

@@ -221,6 +221,21 @@ video {
     font-weight: 600;
 }
 
+.close-image{
+    background: linear-gradient(to right, #004aad, #cb6ce6);
+    color: #ffffff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 .close-video:hover{
     color: black;
+}
+
+.video_content img{
+    height: 550px;
+    width: auto;
 }
