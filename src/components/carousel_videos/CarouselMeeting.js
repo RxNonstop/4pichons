@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import video1 from '../../assets/videos/video1.mp4';
+import video1 from '../../assets/videos/meeting_planners.mp4';
 function CarouselMeeting() {
     return(
         <Carousel>

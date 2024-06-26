@@ -4,6 +4,7 @@ import Travels from "../components/Travels";
 import Sf from "../components/Sf";
 import Sa from "../components/Sa";
 import PrincipalServicios from "../components/PrincipalServicios";
+import MeetingPlanners from "../components/MeetingPlanners";
 
 function Gallery({ children, menuOption }) {
   return (
@@ -11,7 +12,7 @@ function Gallery({ children, menuOption }) {
       {menuOption === "" && (
         <PrincipalServicios></PrincipalServicios>
       )}
-      {menuOption === "meeting" && <VirtualReality></VirtualReality>}
+      {menuOption === "meeting" && <MeetingPlanners></MeetingPlanners>}
       {menuOption === "vr" && <VirtualReality></VirtualReality>}
       {menuOption === "travels" && <Travels></Travels>}
       {menuOption === "team" && <VirtualReality></VirtualReality>}

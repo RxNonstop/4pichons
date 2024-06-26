@@ -1,13 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import video1 from '../../assets/videos/video1.mp4';
+import activations from '../../assets/images/slider-activations.png';
 function CarouselSa() {
     return(
         <Carousel>
             <Carousel.Item>
                 <div className='video-container'>
-                    <video src={video1} autoPlay muted loop className='video_content'>
-                    </video>
+                    <img src={activations} alt="" className='img_slider'></img>
                     <div className='carousel-caption'>
                     <div className='text'>
                         <h1>SUSTENTABLE ACTIVATIONS</h1>

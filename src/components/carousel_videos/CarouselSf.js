@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import activations from '../../assets/images/slider-activations.png';
+import furniture from '../../assets/videos/sustainable_furniture.mp4';
 function CarouselSf() {
     return(
         <Carousel>
             <Carousel.Item>
                 <div className='video-container'>
-                    <img src={activations} alt="" className='img_slider'></img>
+                    <video src={furniture} autoPlay muted loop></video>
                     <div className='carousel-caption'>
                     <div className='text'>
                         <h1>SUSTENTABLE FURNITURE</h1>
