@@ -1,7 +1,6 @@
-import React,{useState} from "react";
+import React from "react";
 
 const Travels=()=>{
-    const [selected, setSelected] = useState(false);
     return(
         <svg preserveAspectRatio="xMidYMid meet" data-bbox="31 51.001 138 97.999" viewBox="31 51.001 138 97.999" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label="">
             <g>

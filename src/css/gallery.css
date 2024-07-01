@@ -239,3 +239,15 @@ video {
     height: 550px;
     width: auto;
 }
+
+@media only screen and (max-width: 1500px){
+    .video-only{
+        width: 350px;
+    }
+}
+/* 
+@media only screen and (max-width: 1360px){
+    .video-only{
+        width: 300px;   
+    }
+} */

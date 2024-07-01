@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import video1 from '../../assets/videos/video1.mp4';
+import quienes_somos from '../../assets/videos/slider_quienes_somos.mp4';
 import que_ofrecemos from '../../assets/videos/que_ofrecemos.mp4';
 function CarouselConocenos() {
     return(
         <Carousel>
             <Carousel.Item>
             <div className='video-container'>
-                <video src={video1} autoPlay muted loop className='video_content'>
+                <video src={quienes_somos} autoPlay muted loop className='video_content'>
                 </video>
                 <div className='carousel-caption'>
                 <div className='text'>

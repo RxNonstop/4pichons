@@ -1,0 +1,16 @@
+.servicios .meeting_planners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.meeting_planners video{
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1600px){
+    .meeting_planners video{
+        width: 90%;
+    }
+}

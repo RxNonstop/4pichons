@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import video1 from '../../assets/videos/video1.mp4';
+import vr from '../../assets/videos/slider_VR.mp4';
 function CarouselVr() {
     return(
         <Carousel>
             <Carousel.Item>
                 <div className='video-container'>
-                    <video src={video1} autoPlay muted loop className='video_content'>
+                    <video src={vr} autoPlay muted loop className='video_content'>
                     </video>
                     <div className='carousel-caption'>
                     <div className='text'>

@@ -76,6 +76,12 @@
     display: flex;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 form input{
     border-radius: 5px;
     border-style: none;
@@ -112,10 +118,6 @@ form button{
     float: right;
 }
 
-.numbers ul li::marker, .socials ul ::marker, .email ul ::marker{
-    
-}
-
 .contactanos{
     background: linear-gradient(to bottom, #3533cd, #844e94);
     background-repeat: no-repeat;
@@ -142,3 +144,9 @@ form button{
     color: #a6a6a6;
     font-weight: 200 !important;
 }
+
+@media only screen and (max-width: 1350px){
+    form input, form textarea{
+        max-width: 450px;
+    }
+} 
